@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
     <div
       className="h-screen md:h-[704px] w-full bg-cover bg-center flex flex-col md:flex-row justify-center md:justify-end items-center"
       style={{
-        backgroundImage: "url('/herobg.jpeg')", // Path to your image
+        backgroundImage: "url('/herobg.jpeg')",
       }}
     >
       <Card className="w-[90%] max-w-[390px] md:w-[450px] bg-white shadow-lg mx-4 md:mr-12">
