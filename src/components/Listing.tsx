@@ -13,10 +13,12 @@ const ProductListing = () => {
             width={300}
             height={300}
             className="w-full h-auto object-cover mb-4"
-          />
-          <h3 className="text-base md:text-lg font-semibold text-gray-800">
-            The Dandy Chair
-          </h3>
+          />{" "}
+          <Link href={"/products/the-dandy-chair"}>
+            <h3 className="text-base md:text-lg font-semibold text-gray-800">
+              The Dandy Chair
+            </h3>
+          </Link>
           <p className="text-gray-600 text-sm md:text-base">£250</p>
         </div>
 
@@ -27,10 +29,12 @@ const ProductListing = () => {
             width={300}
             height={300}
             className="w-full h-auto object-cover mb-4"
-          />
-          <h3 className="text-base md:text-lg font-semibold text-gray-800">
-            Rustic Vase Set
-          </h3>
+          />{" "}
+          <Link href={"/products/rustic-vase-set"}>
+            <h3 className="text-base md:text-lg font-semibold text-gray-800">
+              Rustic Vase Set
+            </h3>
+          </Link>
           <p className="text-gray-600 text-sm md:text-base">£155</p>
         </div>
 
@@ -41,10 +45,12 @@ const ProductListing = () => {
             width={300}
             height={300}
             className="w-full h-auto object-cover mb-4"
-          />
-          <h3 className="text-base md:text-lg font-semibold text-gray-800">
-            The Silky Vase
-          </h3>
+          />{" "}
+          <Link href={"/products/the-silky-vase"}>
+            <h3 className="text-base md:text-lg font-semibold text-gray-800">
+              The Silky Vase
+            </h3>
+          </Link>
           <p className="text-gray-600 text-sm md:text-base">£125</p>
         </div>
 
@@ -55,10 +61,12 @@ const ProductListing = () => {
             width={300}
             height={300}
             className="w-full h-auto object-cover mb-4"
-          />
-          <h3 className="text-base md:text-lg font-semibold text-gray-800">
-            The Lucy Lamp
-          </h3>
+          />{" "}
+          <Link href={"/products/the-lucy-lamp"}>
+            <h3 className="text-base md:text-lg font-semibold text-gray-800">
+              The Lucy Lamp
+            </h3>
+          </Link>
           <p className="text-gray-600 text-sm md:text-base">£399</p>
         </div>
       </div>
