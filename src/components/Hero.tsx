@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
   Card,
   CardContent,
@@ -22,9 +23,11 @@ const HeroSection: React.FC = () => {
           <CardDescription className="text-base md:text-lg text-gray-500 mb-6">
             Shop the new Spring 2022 collection today
           </CardDescription>
-          <button className="w-full md:w-auto px-6 py-3 bg-gray-200 text-black font-medium rounded hover:bg-gray-700">
-            View collection
-          </button>
+          <Link href={"/products"}>
+            <button className="w-full md:w-auto px-6 py-3 bg-gray-200 text-black font-medium rounded hover:bg-gray-300">
+              View collection
+            </button>
+          </Link>
         </CardContent>
       </Card>
     </div>

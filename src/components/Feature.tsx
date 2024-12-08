@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const FeatureSection = () => {
   return (
@@ -11,9 +12,11 @@ const FeatureSection = () => {
           A global brand with local beginnings, our story began in a small
           studio in South London in early 2014.
         </p>
-        <button className="bg-gray-600 text-white text-sm font-medium py-2 px-6 rounded-lg hover:bg-gray-200 transition">
-          View collection
-        </button>
+        <Link href={"/products"}>
+          <button className="bg-gray-600 text-white text-sm font-medium py-2 px-6 rounded-lg hover:bg-gray-300 transition">
+            View collection
+          </button>
+        </Link>
       </div>
 
       <div className="w-full md:w-[630px] h-[380px] md:h-[478px] relative rounded-lg shadow-md">

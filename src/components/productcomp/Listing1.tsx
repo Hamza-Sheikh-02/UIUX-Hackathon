@@ -1,74 +1,67 @@
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
 
-const ProductListing = () => {
+const ProductListing1 = () => {
   return (
     <div className="bg-white flex flex-col items-center justify-center px-4 py-8">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-[1440px] w-full">
         <div className="flex flex-col items-center">
           <Image
-            src="/dandy-chair.png"
-            alt="The Dandy Chair"
+            src="/table1.jpg"
+            alt="The Coffee Table"
             width={300}
             height={300}
             className="w-full h-auto object-cover mb-4"
           />
           <h3 className="text-base md:text-lg font-semibold text-gray-800">
-            The Dandy Chair
+            The Coffee Table
           </h3>
           <p className="text-gray-600 text-sm md:text-base">£250</p>
         </div>
 
         <div className="flex flex-col items-center">
           <Image
-            src="/rustic-vase-set.png"
-            alt="Rustic Vase Set"
+            src="/chair1.jpg"
+            alt="Chair"
             width={300}
             height={300}
             className="w-full h-auto object-cover mb-4"
           />
           <h3 className="text-base md:text-lg font-semibold text-gray-800">
-            Rustic Vase Set
+            The Luxury Chair
           </h3>
-          <p className="text-gray-600 text-sm md:text-base">£155</p>
+          <p className="text-gray-600 text-sm md:text-base">£200</p>
         </div>
 
         <div className="flex flex-col items-center">
           <Image
-            src="/the-silky-vase.png"
-            alt="The Silky Vase"
+            src="/sofa1.jpg"
+            alt="The Pakistani Sofa"
             width={300}
             height={300}
             className="w-full h-auto object-cover mb-4"
           />
           <h3 className="text-base md:text-lg font-semibold text-gray-800">
-            The Silky Vase
+            The Pakistani Sofa
           </h3>
-          <p className="text-gray-600 text-sm md:text-base">£125</p>
+          <p className="text-gray-600 text-sm md:text-base">£325</p>
         </div>
 
         <div className="flex flex-col items-center">
           <Image
-            src="/the-lucy-lamp.png"
-            alt="The Lucy Lamp"
+            src="/drawer1.jpg"
+            alt="The Drawer"
             width={300}
             height={300}
             className="w-full h-auto object-cover mb-4"
           />
           <h3 className="text-base md:text-lg font-semibold text-gray-800">
-            The Lucy Lamp
+            The Drawer
           </h3>
-          <p className="text-gray-600 text-sm md:text-base">£399</p>
+          <p className="text-gray-600 text-sm md:text-base">£275</p>
         </div>
       </div>
-      <Link href={"/products"}>
-        <button className="mt-8 bg-gray-100 text-gray-800 text-sm md:text-base font-medium py-2 px-6 rounded-lg hover:bg-gray-200 transition">
-          View collection
-        </button>
-      </Link>
     </div>
   );
 };
 
-export default ProductListing;
+export default ProductListing1;
