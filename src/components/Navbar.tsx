@@ -12,18 +12,25 @@ const Navbar = () => {
     <nav className="w-full max-w-[1440px] mx-auto shadow-md">
       <div className="flex items-center justify-between px-6 md:px-10 py-4 border-b">
         <div>
-          <h1 className="text-3xl font-bold text-gray-800">AVION</h1>
+          <Link href={"/"}>
+            <h1 className="text-3xl font-bold text-gray-800">AVION</h1>
+          </Link>
         </div>
         <div className="hidden md:block flex-grow"></div>
         <div className="flex items-center gap-6">
           <ul className="hidden md:flex items-center gap-6 text-gray-700">
             <li>
-              <Link href="#" className="hover:text-gray-900">
+              <Link href="/" className="hover:text-gray-900">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:text-gray-900">
                 About us
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-900">
+              <Link href="contact" className="hover:text-gray-900">
                 Contact us
               </Link>
             </li>
@@ -115,12 +122,17 @@ const Navbar = () => {
         <div className="p-4">
           <ul className="flex flex-col gap-4">
             <li>
-              <Link href="#" className="hover:text-gray-900">
+              <Link href="about" className="hover:text-gray-900">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="about" className="hover:text-gray-900">
                 About us
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-900">
+              <Link href="contact" className="hover:text-gray-900">
                 Contact us
               </Link>
             </li>

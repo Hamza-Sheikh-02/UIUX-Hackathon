@@ -7,7 +7,7 @@ import {
 
 const BrandDifference = () => {
   return (
-    <div className="bg-gray-50 flex flex-col items-center justify-center px-6 py-12">
+    <div className="bg-white flex flex-col items-center justify-center px-6 py-12">
       <h2 className="text-2xl font-semibold text-gray-800 mb-12 text-center">
         What makes our brand different
       </h2>
