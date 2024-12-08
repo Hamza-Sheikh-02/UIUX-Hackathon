@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { FiSearch, FiShoppingCart, FiMenu } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
-import { ModeToggle } from "./toggle-button";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,17 +25,12 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4">
           <div className="hidden md:flex items-center gap-4">
-            <ModeToggle />
             <button aria-label="Cart">
               <FiShoppingCart className="text-gray-600 w-5 h-5" />
             </button>
             <button aria-label="User">
               <FaUserCircle className="text-gray-600 w-6 h-6" />
             </button>
-          </div>
-          
-          <div className="md:hidden">
-            <ModeToggle />
           </div>
 
           <button

@@ -1,7 +1,14 @@
-export default function Home() {
+import React from "react";
+import HeroSection from "@/components/Hero";
+
+const Home: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl font-bold">Welcome to the home page</h1>
+    <div>
+      <main className="pt-[80px]">
+        <HeroSection />
+      </main>
     </div>
-  )
-}
+  );
+};
+
+export default Home;
