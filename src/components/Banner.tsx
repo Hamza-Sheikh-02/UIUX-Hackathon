@@ -13,7 +13,8 @@ const Banner = () => {
         <div className="flex items-center gap-2 text-center max-w-screen-md">
           <FaTruck className="text-white text-base sm:text-lg" />
           <span>
-            Free delivery on all orders over £50 with code easter at checkout
+            Free delivery on all orders over £50 with code{" "}
+            <strong>EASTER</strong> at checkout
           </span>
         </div>
 
