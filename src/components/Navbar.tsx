@@ -44,9 +44,9 @@ const Navbar = () => {
             <button aria-label="Search">
               <FiSearch className="text-gray-600 w-5 h-5 sm:w-6 sm:h-6" />
             </button>
-            <button aria-label="Cart">
-              <FiShoppingCart className="text-gray-600 w-5 h-5 sm:w-6 sm:h-6" />
-            </button>
+            <Link href="/shopping-cart" aria-label="Cart">
+              <FiShoppingCart className="text-gray-600 w-5 h-5 sm:w-6 sm:h-6 " />
+            </Link>
             <button aria-label="User">
               <FaUserCircle className="text-gray-600 w-6 h-6 sm:w-7 sm:h-7" />
             </button>
@@ -63,42 +63,42 @@ const Navbar = () => {
       <div className="bg-gray-100">
         <ul className="flex flex-wrap justify-center gap-6 py-3 text-gray-700">
           <li>
-            <Link href="#" className="hover:text-gray-900">
+            <Link href="products" className="hover:text-gray-900">
               All products
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-gray-900">
+            <Link href="products" className="hover:text-gray-900">
               Plant pots
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-gray-900">
+            <Link href="products" className="hover:text-gray-900">
               Ceramics
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-gray-900">
+            <Link href="products" className="hover:text-gray-900">
               Tables
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-gray-900">
+            <Link href="products" className="hover:text-gray-900">
               Chairs
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-gray-900">
+            <Link href="products" className="hover:text-gray-900">
               Crockery
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-gray-900">
+            <Link href="products" className="hover:text-gray-900">
               Tableware
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-gray-900">
+            <Link href="products" className="hover:text-gray-900">
               Cutlery
             </Link>
           </li>
