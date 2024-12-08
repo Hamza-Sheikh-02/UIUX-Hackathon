@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "UIUX Hackathon",
@@ -16,8 +17,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body>
-          <Navbar />
-          {children}
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
