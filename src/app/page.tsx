@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "@/components/Hero";
 import BrandDifference from "@/components/BrandDifference";
+import ProductListing from "@/components/Listing";
 
 const Home: React.FC = () => {
   return (
@@ -10,6 +11,9 @@ const Home: React.FC = () => {
       </main>
       <main className="pt-[10px]">
         <BrandDifference />
+      </main>
+      <main className="pt-[10px]">
+        <ProductListing />
       </main>
     </div>
   );
