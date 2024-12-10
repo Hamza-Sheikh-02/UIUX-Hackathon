@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-[rgb(42,37,75)] text-white px-4 md:px-16 lg:px-32 py-10">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
         <div className="col-span-1 md:col-span-1">
-          <h3 className="font-bold mb-4 text-lg">Menu</h3>
+          <h2 className="font-bold mb-4 text-lg">Menu</h2>
           <ul className="space-y-2 text-sm">
             <li>New arrivals</li>
             <li>Best sellers</li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <div className="col-span-2 md:col-span-1">
-          <h3 className="font-bold mb-4 text-lg">Our Company</h3>
+          <h2 className="font-bold mb-4 text-lg">Our Company</h2>
           <ul className="space-y-2 text-sm">
             <li>About us</li>
             <li>Vacancies</li>
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         <div className="col-span-2 md:col-span-1">
-          <h3 className="font-bold mb-4 text-lg">Join our mailing list</h3>
+          <h2 className="font-bold mb-4 text-lg">Join our mailing list</h2>
           <div className="flex items-center">
             <input
               type="email"
